@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation</title>
+  <link rel="stylesheet" href="css/cisc3003-PairAssgn-summary.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    
+    header {
+      background-color: blue;
+      padding: 20px;
+    }
+  </style>
+  <script src="js/cisc3003-PairAssgn-summary.js"></script>
+</head>
+<body>
+ <header>
+    <h1>Marco and Foster</h1>
+    
+  </header>
+  
+  <div class="in-page-navigator">
+    <nav>
+      <ul>
+        <li>
+          <a href="#container11">Marco</a>
+        </li>
+        <li>
+          <a href="#container12">Foster</a>
+        </li>
+        <li>
+          <a onclick="scrollToTop()">Back to Top</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+   <div class="container">
+<div class="content">
+<section id="container11">
+  <h2>Summary Page: Marco's Business Goals (Computer Science Background)</h2>
+
+  <h3>Business Goals:</h3>
+  <p>Catch the fans of Tom and Jerry.</p>
+
+  <h3>Professional Commitments:</h3>
+  <p>Provide the original source of Tom and Jerry.</p>
+  
+  <h3>Future Directions:</h3>
+  <p>Use fans only mode to receive the money.</p>
+
+  
+ 
+  <hr>
+ </section>
+ 
+<section id="container12">
+  <h2>Summary Page: Foster's Business Goals (Computer Science Background)</h2>
+
+  <h3>Business Goals:</h3>
+    <p>Provide the website to Big Shop.</p>
+  <h3>Professional Commitments:</h3>
+    <p>Steady and Safety.</p>
+  <h3>Future Directions:</h3>
+    <p>By the maintain of website, we can earn money.</p>
+
+
+
+
+
+  
+    </section> 
+      </div>
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-profile.html'">Profile page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-summary.html'">Summary page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-showcase.html'">Showcase page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-qualification.html'">Qualification page</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      
+    <script>
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+      </div>
+ 
+      <hr>
+  
+
+  <footer>
+    <p>&copy; 2024  
+                   Marco    DC026736
+                   Foster   DC125135            All rights reserved.</p>
+  </footer>
+    <script>
+    
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

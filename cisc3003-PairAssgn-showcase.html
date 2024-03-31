@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation</title>
+  <link rel="stylesheet" href="css/cisc3003-PairAssgn-showcase.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    
+    header {
+      background-color: blue;
+      padding: 20px;
+    }
+  </style>
+  <style>
+    .thumbnail {
+        width: 600px; /* Set the desired width */
+        height: auto; /* Maintain aspect ratio by setting height to auto */
+    }
+</style>
+  <script src="js/cisc3003-PairAssgn-showcase.js"></script>
+</head>
+<body>
+ <header>
+    <h1>Marco and Foster</h1>
+    
+  </header>
+  <div class="in-page-navigator">
+    <nav>
+      <ul>
+        <li>
+          <a href="#container11">Marco</a>
+        </li>
+        <li>
+          <a href="#container12">Foster</a>
+        </li>
+        <li>
+          <a onclick="scrollToTop()">Back to Top</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+   <div class="container">
+<div class="content">
+<section id="container11">
+  <h2>Showcase Page</h2>
+  
+  <h3>Marco portfolio</h3>
+  <p>I am a Computer Science Student from University of Macau, graduated from Yuet Wah Collage. My hobbies are watching movies like Marvel, Star Wars and other japanese anime such as Dragon Ball and Gundam.</p>
+<div class="thumbnail-container">
+    <figure>
+      <img class="thumbnail" src="images/p1.png" onclick="showImage('images/p1.png');">
+      <figcaption class="thumbnail-caption">portfolio1</figcaption>
+      <a href="portfolio01/cisc3003-PairAssgn-Homepage.html">link</a>
+    </figure>
+  </div>
+  <h3>Marco Accomplishments</h3>
+  <p>During my High school day, I learn that creating website and coding are very interesting, after that I graduated from my college and began my University life as a Computer Science Student. During my University life, I join many activities such as game creating competition and playing fashion with my friends.</p>
+  
+
+  <h3>Marco Business Offers</h3>
+  <p>My aim is to help the others to fix their computers. For example, if you have problems about your computer like lagging or can't connecting internet, you can find me. Moreover I can design some website for the others even through my skills are still improving.</p>
+
+  
+ 
+  <hr>
+ </section>
+ 
+<section id="container12">
+
+  <h3>Foster portfolio</h3>
+  <p>A website of red store.</p>
+<div class="thumbnail-container">
+    <figure>
+      <img class="thumbnail" src="images/p2.png" onclick="showImage('images/p2.png');">
+      <figcaption class="thumbnail-caption">portfolio2</figcaption>
+      <a href="portfolio02/CISC3003-SugEx07.html">link</a>
+    </figure>
+  </div>
+  <h3>Foster Accomplishments</h3>
+  <p>First year university scholarship.</p>
+ 
+
+  <h3>Foster Business Offers</h3>
+  <p>Still not yet.</p>
+
+
+
+
+
+  
+    </section> 
+      </div>
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-profile.html'">Profile page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-summary.html'">Summary page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-showcase.html'">Showcase page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='cisc3003-PairAssgn-qualification.html'">Qualification page</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      
+    <script>
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+      </div>
+ 
+      <hr>
+  
+
+  <footer>
+    <p>&copy; 2024  
+                   Marco    DC026736
+                   Foster   DC125135            All rights reserved.</p>
+  </footer>
+    <script>
+    
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
