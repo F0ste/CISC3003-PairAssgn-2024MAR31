@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation</title>
+  <link rel="stylesheet" href="css/showcase.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    
+    header {
+      background-color: blue;
+      padding: 20px;
+    }
+  </style>
+  <style>
+    .thumbnail {
+        width: 600px; /* Set the desired width */
+        height: auto; /* Maintain aspect ratio by setting height to auto */
+    }
+</style>
+  <script src="js/showcase.js"></script>
+</head>
+<body>
+ <header>
+    <h1>Macro and Foster</h1>
+    
+  </header>
+  <div class="in-page-navigator">
+    <nav>
+      <ul>
+        <li>
+          <a href="#container11">Macro</a>
+        </li>
+        <li>
+          <a href="#container12">Foster</a>
+        </li>
+        <li>
+          <a onclick="scrollToTop()">Back to Top</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+   <div class="container">
+<div class="content">
+<section id="container11">
+  <h2>Showcase Page</h2>
+  
+  <h3>Macro Protfolio</h3>
+  <p>Develop a user-friendly mobile application to facilitate online sales and increase revenue streams.
+Research and implement algorithms for optimizing data analysis processes to gain insights into customer behavior.
+Collaborate with the university's technology transfer office to commercialize innovative software solutions developed within the academic environment.</p>
+<div class="thumbnail-container">
+    <figure>
+      <img class="thumbnail" src="images/p1.png" onclick="showImage('images/p1.png');">
+      <figcaption class="thumbnail-caption">Protfolio1</figcaption>
+      <a href="portfolio01/cisc3003-PairAssgn-Homepage.html">link</a>
+    </figure>
+  </div>
+  <h3>Macro Accomplishments</h3>
+  <p>Engage in continuous learning and skill development through online courses and workshops in software development and cybersecurity.
+Mentor junior students in computer science by participating in university-led coding clubs and hackathons.
+Establish partnerships with local tech startups to explore opportunities for collaboration and knowledge exchange.</p>
+  
+
+  <h3>Macro Business Offers</h3>
+  <p>Explore opportunities in artificial intelligence and machine learning to enhance the functionality of existing software products.
+Collaborate with faculty members on research projects focusing on cutting-edge technologies such as quantum computing and blockchain.
+Foster entrepreneurship among students by organizing startup competitions and providing incubation support for innovative ideas.</p>
+
+  
+ 
+  <hr>
+ </section>
+ 
+<section id="container12">
+
+  <h3>Foster Protfolio</h3>
+  <p>Develop a user-friendly mobile application to facilitate online sales and increase revenue streams.
+Research and implement algorithms for optimizing data analysis processes to gain insights into customer behavior.
+Collaborate with the university's technology transfer office to commercialize innovative software solutions developed within the academic environment.</p>
+<div class="thumbnail-container">
+    <figure>
+      <img class="thumbnail" src="images/p2.png" onclick="showImage('images/p2.png');">
+      <figcaption class="thumbnail-caption">Protfolio2</figcaption>
+      <a href="portfolio02/CISC3003-SugEx07.html">link</a>
+    </figure>
+  </div>
+  <h3>Foster Accomplishments</h3>
+  <p>First year university scholarship.</p>
+ 
+
+  <h3>Foster Business Offers</h3>
+  <p>Still not yet.</p>
+
+
+
+
+
+  
+    </section> 
+      </div>
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <button class="nav-button" onclick="location.href='profile.html'">Profile page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='summary.html'">Summary page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='showcase.html'">Showcase page</button>
+            </li>
+            <li>
+              <button class="nav-button" onclick="location.href='qualification.html'">Qualification page</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      
+    <script>
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+      </div>
+ 
+      <hr>
+  
+
+  <footer>
+    <p>&copy; 2024  
+                   Macro    DC026736
+                   Foster   DC125135            All rights reserved.</p>
+  </footer>
+    <script>
+    
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

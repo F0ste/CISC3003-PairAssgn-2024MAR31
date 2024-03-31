@@ -1,0 +1,38 @@
+.in-page-navigator{
+    position: fixed;
+    right: 0.5rem;
+    top: 50%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+
+    background: #fff;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.image-container.people img{
+    width: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-container.people img:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+

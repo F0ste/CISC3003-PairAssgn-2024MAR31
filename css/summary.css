@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+h1 {
+  
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button{
+  width: 10rem;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 100px;
+}
+.nav-button {
+  background-color: #808040;
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 2px solid #400040; 
+  transition: transform 0.3s; 
+  margin: 0 20px; 
+}
+
+.nav-button:hover {
+  transform: scale(1.1); 
+}
+#introduction {
+  padding: 20px;
+}
+
+#introduction h2 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#introduction,
+#content {
+  display: block;
+  justify-content: center;
+  text-align:center; 
+}
+
+
+
+
+.content {
+  
+  width: 60%; /* 设置宽度为50% */
+  padding: 20px;
+  background-color:#00ffff; 
+}
+
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    cursor: coreme_to;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .displayed-image {
+    max-width: 500px;
+    max-height: 500px;
+  }
+   .thumbnail {
+    width: 50px;
+    height: auto;
+  }
+  .thumbnail-caption {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+
+.content {
+  
+
+  padding: 20px;
+  background-color: #c08d16;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  /* Mobile layout */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    order: 2;
+  }
+  
+  /* Tablet layout */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+  
+    .sidebar {
+      order: 1;
+      width: 250px;
+    }
+  }
+  
+  /* Desktop layout */
+  @media (min-width: 1200px) {
+    .sidebar {
+      width: 20%;
+    }
+  
+    .container {
+      margin: 0 200px; /* Add desired margin values */
+    }
+  }

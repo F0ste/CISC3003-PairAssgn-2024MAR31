@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Products - RedStore</title>
+<link rel="stylesheet" href="css/cisc3003-PairAssgn-showcase.css">
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="cisc3003-PairAssgn-Homepage.html"><img src="images/jerry.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="cisc3003-PairAssgn-Homepage.html">Home</a></li>
+					<li><a href="cisc3003-PairAssgn-profile.html">Profile</a></li>
+					<li><a href="cisc3003-PairAssgn-summary.html">Summary</a></li>
+					<li><a href="cisc3003-PairAssgn-showcase.html">Showcase</a></li>
+					<li><a href="cisc3003-PairAssgn-qualification.html">Qualification</a></li>
+					</ul>
+				</nav>
+				<img alt="" src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+			
+		</div>
+			<div class="offer">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img alt="" src="images/dog.gif" class="offer-img">
+				</div>
+				<div class="col-2">
+					<h1>Our Portfolio Projects</h1>
+					<small>Check out Foster and Marco's portfolio! They're experts in creating amazing HTML. Their Portfolio contains five pages which are home page, summary, showcase, qualification.</small>
+						<br><a href="public/Foster-ind/public/cisc3003-IndAssgn.html" class="btn">View Foster Portfolio  &#8594;</a>
+						<br><a href="public/Marco-ind/ind/cisc3003-IndAssgn.html" class="btn">View Marco Portfolio &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="testimonial">
+<h2 class="title">Our Accomplishments</h2>
+<section id="services">
+   <p>This is our recent Desiged  eCommerce Website</p>
+   <p>Go Check it out!</p>
+</section>
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<br><a href="public/e-website1/e-web/public/CISC3003-SugEx07.html" class="btn">eCommerce Website 1 &#8594;</a>
+					<div class="rating">
+				</div>
+				</div>
+				<div class="col-3">
+					<br><a href="public/e-website2/cisc3003-SugEx08.html" class="btn">eCommerce Website 2 &#8594;</a>
+					<div class="rating">
+				</div>
+				<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+		<h2 class="title">Our Business Offers</h2>
+		<section id="services">
+   <p>Our business offers a wide range of Tom and Jerry collections, including PNG photos, memes, and online photo editor services. We strive to provide the highest quality products at the most affordable prices to meet the needs of all our customers. Additionally, we offer excellent customer service and support to ensure a smooth and enjoyable shopping experience. Our goal is to provide a one-stop-shop for all your Tom and Jerry needs, whether it's for personal or commercial use. We are committed to continually improving and innovating our products and services to better serve our customers.</p>
+</section>
+
+
+
+<!-------- footer ----------->
+
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Tom and Jerry</h3>
+					<p>More about this neko and mouse</p>
+					<div class="app-logo">
+						<a href="https://google.com"><img alt="" src="images/google.png"></a>
+						<a href="https://www.wikipedia.org/wiki/Main_Page"><img alt="" src="images/wiki.png"></a>
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img alt="" src="images/zztom.gif">
+					<p>This is sleepy tom, he is ready to zZZ since he tired in doing the pair-assignment.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Direct To Other Page</h3>
+					<ul>
+						<li><a href="cisc3003-PairAssgn-Homepage.html">Home</a></li>
+						<li><a href="cisc3003-PairAssgn-profile.html">Profile</a></li>
+						<li><a href="cisc3003-PairAssgn-qualification.html">Qualification</a></li>
+						<li><a href="cisc3003-PairAssgn-summary.html">Summary</a></li>		
+						<li><a href="cisc3003-PairAssgn-showcase.html">Showcase</a></li>				
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li><a href="http://www.facebook.com">Facebook</a></li>
+						<li><a href="http://www.twitter.com">Twitter</a></li>
+						<li><a href="http://www.instagram.com">Instagram</a></li>
+						<li><a href="http://www.youtube.com">Youtube</a></li>					
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">CISC3003-PairAssgnment-2024MAR31-DC125135-Foster | DC026736-Lei Chon Hin</p>
+		</div>
+	</div>
+	
+<!-------- js for toggle menu ----------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+		
+	</script>
+
+
+</body>
+</html>

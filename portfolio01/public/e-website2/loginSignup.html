@@ -1,0 +1,167 @@
+<html>
+
+<head>
+    <title>E-Commerce Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/cisc3003-sugEx07.css">
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet" 
+	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+
+            <img src="images/orange-logo.png" class="logo">
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa fa-search"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket"></i>cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!---------------featured-categories---------------->
+
+    <!-- --------- single product details ----------- -->
+
+
+	<div class="small-container single-product">
+		<div class="row">
+			<div class="col-2"><div class="small-img-col"></div>
+				<img alt="" src="images/gallery-1.jpg" width="100%" id="ProductImg">
+				
+				<div class="small-img-row">
+					<div class="small-img-col">
+						<img alt="" src="images/gallery-1.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img alt="" src="images/gallery-2.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img alt="" src="images/gallery-3.jpg" width="100%" class="small-img">
+					</div>
+					<div class="small-img-col">
+						<img alt="" src="images/gallery-4.jpg" width="100%" class="small-img">
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="col-2">
+				<p>Home / T-Shirt</p>
+				<h1>Red Printed T-Shirt by HRX</h1>
+				<h4>$50.00</h4>
+				<select>
+					<option>Select Size</option>
+					<option>XXL</option>
+					<option>XL</option>
+					<option>Large</option>
+					<option>Medium</option>
+					<option>Small</option>
+				</select> <input type="number" value="1"> <a href="" class="btn">Add
+					to Cart</a>
+
+				<h3>Product Details <i class="fa fa-indent"></i> </h3>
+				<br>
+				<p>Give your summer wardrobe a style upgrade with the HRX Men's
+					Active T-shirt. Team it with a pair of shorts for your morning
+					workout or a denims for an evening out with the guys.</p>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+    <!--------------New Products----------------->
+    <!--  -->
+
+    <!----------------Website features----------------->
+
+    
+
+    <!------------Footer----------->
+    <section class="footer">
+        <div class="container tex-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Useful Links</h1>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Use</p>
+                    <p>Return Policy</p>
+                    <p>Discount Coupons</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>Company</h1>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Career</p>
+                    <p>Affiliate</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Follow Us On</h1>
+                    <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                    <p><i class="fa fa-youtube-play"></i> YouTube</p>
+                    <p><i class="fa fa-linkedin"></i> Linkedin</p>
+                    <p><i class="fa fa-twitter"></i> Twitter</p>
+                </div>
+                <div class="col-md-3 footer-image">
+                    <h1>Download App</h1>
+                    <img src="images/app-logo.png">
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function openmenu() {
+            document.getElementById("side-menu").style.display = "block";
+            document.getElementById("menu-btn").style.display = "none";
+            document.getElementById("close-btn").style.display = "block";
+        }
+        function closemenu() {
+            document.getElementById("side-menu").style.display = "none";
+            document.getElementById("menu-btn").style.display = "block";
+            document.getElementById("close-btn").style.display = "none";
+        }
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
